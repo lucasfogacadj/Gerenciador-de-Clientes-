@@ -9,10 +9,28 @@
 
 namespace App\controller;
 
+
+
 use App\model\dao\ClienteDAO;
 use App\model\Entidades\Cliente;
 
+require_once ('model/Entidades/Cliente.php');
+require_once ('model/DAO/ClienteDAO.php');
+
+
+
+
 class ClientesController{
+
+    public function listaCliente()
+    {
+        $clienteDAO = new ClienteDAO();
+        //self::setViewParam('listaClientes', $clienteDAO->listar());
+        include "view/header.php";
+        $resultado = $clienteDAO->listar();
+        include "view/clientes/listaCliente2.php";
+        include "view/footer.php";
+    }
 
     public function getformulario()
     {
@@ -56,6 +74,7 @@ class ClientesController{
     }
     public function salvar()
     {
+
 
         $cliente = new Cliente();
         $cliente->setNome($_POST['nome']);

@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Models\DAO;
+namespace App\model\DAO;
 
 use App\Lib\Conexao;
+
+require_once ('Lib/conexao.php');
 
 abstract class BaseDAO
 {

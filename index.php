@@ -43,6 +43,8 @@
                          break;
                      case 'ccs': $site->salvar();
                          break;
+                     case 'lu':$site->listaCliente();
+                         break;
                      case 'cca': $site->mostrarFormulario();
                          break;
                  }

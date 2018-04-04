@@ -8,11 +8,35 @@
 
 namespace App\model\dao;
 
+
 use App\model\Entidades\Cliente;
-use App\Models\DAO\BaseDAO;
 
 
-class ClienteDAO extends BaseDAO{
+require_once ('model/Entidades/Cliente.php');
+require_once ('model/DAO/BaseDAO.php');
+require_once ('model/DAO/ClienteDAO.php');
+
+
+
+class ClienteDAO extends BaseDAO {
+
+    public  function listar($id = null)
+    {
+        if($id) {
+            $resultado = $this->select(
+                "SELECT * FROM clientes WHERE id = $id"
+            );
+
+            return $resultado->fetchObject(Cliente::class);
+        }else{
+            $resultado = $this->select(
+                'SELECT * FROM clientes'
+            );
+            return $resultado->fetchAll(\PDO::FETCH_CLASS, Cliente::class);
+        }
+
+        return false;
+    }
 
     public  function salvar(Cliente $cliente) {
         try {
