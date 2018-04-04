@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e376426d-70b2-4f74-9647-d77bc045495c" name="Default" comment="" />
+    <list default="true" id="e376426d-70b2-4f74-9647-d77bc045495c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/DAO/BaseDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/DAO/BaseDAO.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/controller/ClientesController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="536">
-              <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
               <folding>
                 <element signature="e#159#188#0#PHP" expanded="true" />
               </folding>
@@ -99,23 +102,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseDAO.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseDAO.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/DAO/BaseDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="420">
+              <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClienteDAO.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClienteDAO.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/DAO/ClienteDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="33" />
-              <folding>
-                <element signature="e#121#153#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="10" column="32" selection-start-line="10" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -128,6 +128,9 @@
         <option value="package_json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -144,11 +147,11 @@
         <option value="$PROJECT_DIR$/model/Entidades/Cliente.php" />
         <option value="$PROJECT_DIR$/Lib/Conexao.php" />
         <option value="$PROJECT_DIR$/model/DAO/ClienteDAO.php" />
-        <option value="$PROJECT_DIR$/model/DAO/BaseDAO.php" />
         <option value="$PROJECT_DIR$/view/clientes/CadastroCliente.php" />
         <option value="$PROJECT_DIR$/view/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/controller/ClientesController.php" />
+        <option value="$PROJECT_DIR$/model/DAO/BaseDAO.php" />
       </list>
     </option>
   </component>
@@ -165,6 +168,7 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -177,11 +181,6 @@
             <path>
               <item name="App" type="b2602c69:ProjectViewProjectNode" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="App" type="b2602c69:ProjectViewProjectNode" />
@@ -264,12 +263,12 @@
       <workItem from="1522441002958" duration="53000" />
       <workItem from="1522441110521" duration="778000" />
       <workItem from="1522799517077" duration="1181000" />
-      <workItem from="1522804109223" duration="8176000" />
+      <workItem from="1522804109223" duration="8645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29102000" />
+    <option name="totallyTimeSpent" value="29571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -282,7 +281,7 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -584,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/DAO/BaseDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lib/Conexao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -609,20 +601,6 @@
             <marker date="1521844932000" expanded="true" signature="709:729" ph="..." />
             <marker date="1521844932000" expanded="true" signature="709:838" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/clientes/CadastroCliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -650,10 +628,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/clientes/CadastroCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controller/ClientesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
-          <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
           <folding>
             <element signature="e#159#188#0#PHP" expanded="true" />
           </folding>
@@ -662,11 +654,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/DAO/ClienteDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="e#121#153#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="10" column="32" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/DAO/BaseDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
         </state>
       </provider>
     </entry>
