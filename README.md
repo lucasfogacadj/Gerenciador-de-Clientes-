@@ -1,6 +1,6 @@
 # CRUD PHP MVC 
 
-Estrutura em MVC em PHP crua sem usar nenhum framwork
+Estrutura MVC em PHP crua sem usar nenhum framework
 
 CRUD usando PHP PDO e Mysql
 
