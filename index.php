@@ -47,6 +47,8 @@
                          break;
                      case 'cca': $site->mostrarFormulario();
                          break;
+                     case 'aa':$site->EditarCliente();
+                     break;
                  }
              }
 

@@ -26,8 +26,8 @@ class ClientesController{
     {
         $clienteDAO = new ClienteDAO();
         //self::setViewParam('listaClientes', $clienteDAO->listar());
-        include "view/header.php";
         $resultado = $clienteDAO->listar();
+        include "view/header.php";
         include "view/clientes/listaCliente2.php";
         include "view/footer.php";
     }
@@ -42,7 +42,7 @@ class ClientesController{
     public function getCadastro()
     {
         include "view/header.php";
-        include "view/clientes/CadastroCliente.php";
+        include "view/clientes/CadastroCliente2.php";
         include "view/footer.php";
     }
 
@@ -85,6 +85,19 @@ class ClientesController{
 
         $ClienteDAO = new ClienteDAO();
         $ClienteDAO->salvar($cliente);
+
+    }
+
+    public function EditarCliente($id){
+
+        $idCliente = $id;
+
+        $ClienteDAO = new ClienteDAO();
+
+        $cliente = $ClienteDAO->listar($idCliente);
+        include "view/header.php";
+        include "view/clientes/EditarCliente.php";
+        include "view/footer.php";
 
     }
 

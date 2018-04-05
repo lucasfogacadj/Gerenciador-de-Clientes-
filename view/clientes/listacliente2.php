@@ -1,8 +1,8 @@
-<div class="container">
+<div class="">
     <div class="row">
         <br>
         <div class="col-md-12">
-            <a href="" class="btn btn-success btn-sm">Adicionar</a>
+            <a href="?c=c&a=ccb" class="btn btn-success btn-sm">Adicionar</a>
             <hr>
         </div>
         <div class="col-md-12">
@@ -19,9 +19,9 @@
                     <table class="table table-bordered table-hover">
                         <tr>
                             <td class="info">Nome</td>
-                            <td class="info">Preço</td>
-                            <td class="info">Quantidade</td>
-                            <td class="info">Data Cadastro</td>
+                            <td class="info">Telefone</td>
+                            <td class="info">Email</td>
+                            <td class="info">Endereço</td>
                             <td class="info"></td>
                         </tr>
                         <?php
@@ -33,7 +33,7 @@
                                 <td><?php echo $cliente->getEmail(); ?></td>
                                 <td><?php echo $cliente->getEndereco(); ?></td>
                                 <td>
-                                    <a href="" class="btn btn-info btn-sm">Editar</a>
+                                    <a href="?c=c&a=aa" <?php echo $cliente->getIdCliente(); ?> class="btn btn-info btn-sm">Editar</a>
                                     <a href="" class="btn btn-danger btn-sm">Excluir</a>
                                 </td>
                             </tr>
