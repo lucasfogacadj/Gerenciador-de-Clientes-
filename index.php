@@ -8,9 +8,9 @@
 
 
  if (!isset($_GET['c'])) {
-     require_once ('controller/HomeController.php');
-     $site = new HomeController();
-     $site -> index();
+     require_once ('controller/ClientesController.php');
+     $site = new ClientesController();
+     $site -> listaCliente();
  }
  else {
      switch ($_REQUEST['c']) {
