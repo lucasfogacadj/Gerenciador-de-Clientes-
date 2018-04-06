@@ -18,6 +18,7 @@
                 <div class="table-responsive">
                     <table class="table table-bordered table-hover">
                         <tr>
+                            <td class="info">ID</td>
                             <td class="info">Nome</td>
                             <td class="info">Telefone</td>
                             <td class="info">Email</td>
@@ -28,13 +29,15 @@
                         foreach( $resultado as $cliente) {
                             ?>
                             <tr>
+                                <td><?php echo $cliente->getIdCliente(); ?></td>
                                 <td><?php echo $cliente->getNome(); ?></td>
                                 <td><?php echo $cliente->getTelefone(); ?></td>
                                 <td><?php echo $cliente->getEmail(); ?></td>
                                 <td><?php echo $cliente->getEndereco(); ?></td>
                                 <td>
-                                    <a href="?c=c&a=aa" <?php echo $cliente->getIdCliente(); ?> class="btn btn-info btn-sm">Editar</a>
-                                    <a href="" class="btn btn-danger btn-sm">Excluir</a>
+
+                                    <a href="?c=c&a=aa&id=<?=$cliente->getIdCliente();?>" class="btn btn-info btn-sm">Editar</a>
+                                    <a href="?c=c&a=ad&id=<?=$cliente->getIdCliente();?>" class="btn btn-danger btn-sm" onclick="return confirm('Deseja mesmo excluir esse registro?');">Excluir</a>
                                 </td>
                             </tr>
                             <?php

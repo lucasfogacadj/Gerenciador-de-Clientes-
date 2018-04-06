@@ -24,7 +24,7 @@ class ClienteDAO extends BaseDAO {
     {
         if($id) {
             $resultado = $this->select(
-                "SELECT * FROM clientes WHERE id = $id"
+                "SELECT * FROM clientes WHERE id_cliente = $id"
             );
 
             return $resultado->fetchObject(Cliente::class);
@@ -59,6 +59,45 @@ class ClienteDAO extends BaseDAO {
 
         }catch (\Exception $e){
             throw new \Exception("Erro na gravação de dados.", 500);
+        }
+    }
+
+    public function atualizar(Cliente $cliente){
+        try{
+            $id_cliente             = $cliente->getIdCliente();
+            $nome                   = $cliente->getNome();
+            $email                  = $cliente->getEmail();
+            $telefone               = $cliente->getTelefone();
+            $endereco               = $cliente->getEndereco();
+
+            return $this->update(
+                'clientes',
+                "nome = :nome,email = :email,telefone = :telefone,endereco = :endereco",
+                [
+                    ':id_cliente'=>$id_cliente,
+                    ':nome'=>$nome,
+                    ':email'=>$email,
+                    ':telefone'=>$telefone,
+                    ':endereco'=>$endereco
+                ],
+                "id_cliente = :id_cliente"
+            );
+
+        }catch (\Exception $e){
+            throw new \Exception("Erro na gravação de dados.", 500);
+        }
+    }
+
+    public function excluir(Cliente $cliente)
+    {
+        try {
+            $id = $cliente->getIdCliente();
+
+            return $this->delete('clientes',"id_cliente = $id");
+
+        }catch (Exception $e){
+
+            throw new \Exception("Erro ao deletar", 500);
         }
     }
 

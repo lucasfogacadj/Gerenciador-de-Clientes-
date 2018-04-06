@@ -5,7 +5,9 @@
             <h3>Cadastro de Cliente</h3>
 
 
-            <form action="?c=c&a=ccs" method="post" id="form_cadastroCliente">
+            <form action="?c=c&a=ac" method="post" id="form_cadastroCliente">
+                <input type="hidden" class="form-control" name="id_cliente" id="id" value="<?php echo $cliente->getIdCliente(); ?>">
+
                 <div class="form-group">
                     <label for="nome">Nome</label>
                     <input type="text" class="form-control"  name="nome" placeholder="Nome do Cliente" value="<?php echo $cliente->getNome(); ?>" required>

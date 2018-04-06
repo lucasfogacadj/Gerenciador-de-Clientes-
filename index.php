@@ -47,7 +47,11 @@
                          break;
                      case 'cca': $site->mostrarFormulario();
                          break;
-                     case 'aa':$site->EditarCliente();
+                     case 'aa': $id = ($_GET['id']); $site->EditarCliente($id);
+                     break;
+                     case'ac': $site->atualizarCliente();
+                     break;
+                     case 'ad': $id = ($_GET['id']); $site->excluirCliente($id);
                      break;
                  }
              }

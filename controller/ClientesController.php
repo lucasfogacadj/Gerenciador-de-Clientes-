@@ -86,6 +86,10 @@ class ClientesController{
         $ClienteDAO = new ClienteDAO();
         $ClienteDAO->salvar($cliente);
 
+        include "view/header.php";
+        include "view/sucesso.php";
+        include "view/footer.php";
+
     }
 
     public function EditarCliente($id){
@@ -98,6 +102,38 @@ class ClientesController{
         include "view/header.php";
         include "view/clientes/EditarCliente.php";
         include "view/footer.php";
+
+    }
+
+    public function atualizarCliente(){
+
+        $cliente = new Cliente();
+        $cliente->setIdCliente($_POST['id_cliente']);
+        $cliente->setNome($_POST['nome']);
+        $cliente->setEmail($_POST['email']);
+        $cliente->setTelefone($_POST['telefone']);
+        $cliente->setEndereco($_POST['endereco']);
+
+        //var_dump($cliente);
+        $ClienteDAO = new ClienteDAO();
+        $ClienteDAO->atualizar($cliente);
+
+    }
+
+    public function excluirCliente($id){
+
+        $Cliente = new Cliente();
+
+        $Cliente->setIdCliente($id);
+
+        $clienteDao = new ClienteDAO();
+
+        $clienteDao->excluir($Cliente);
+
+        include "view/header.php";
+        include "view/sucesso.php";
+        include "view/footer.php";
+
 
     }
 
