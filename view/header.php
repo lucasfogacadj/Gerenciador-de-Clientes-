@@ -19,16 +19,17 @@
 
 <nav class="nav">
 <ul>
-    <li> <h3>Páginas</h3> </li>
+    <li> <h3>Clientes</h3> <br> </li>
+    <li><a href="?c=c&a=cc"> Cadastro de Usuario No Array</a></li>
+    <li><a href="?c=c&a=ccb"> Cadastro de Usuario no Banco</a></li>
+    <li><a href="?c=c&a=lu"> Listar de Usuario no Banco</a></li>
+    <p>
+    <li> <h3>Páginas</h3> <br> </li>
   <li><a href="?c=s&a=s">London</a></li>
   <li><a href="?c=s&a=p">Paris</a></li>
   <li><a href="?c=s&a=c">Tokyo</a></li>
     <p>
-   <li> <h3>Clientes</h3> </li>
-   <br>
-    <li><a href="?c=c&a=cc"> Cadastro de Usuario No Array</a></li>
-    <li><a href="?c=c&a=ccb"> Cadastro de Usuario no Banco</a></li>
-    <li><a href="?c=c&a=lu"> Listar de Usuario no Banco</a></li>
+
 </ul>
 </nav>
 
