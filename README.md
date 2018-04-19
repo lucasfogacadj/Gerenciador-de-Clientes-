@@ -18,3 +18,5 @@ Você pode testar o sistema em: http://www.sistemaclientes.tk/
 Usuário: teste@teste.com
 senha: teste
 
+Mais informações: www.lucasfogaca.com.br
+
