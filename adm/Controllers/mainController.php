@@ -7,9 +7,9 @@ class mainController
  if(!isset($_SESSION["user"])){
      header("Location: index.php?c=m&a=l");
      }
-     require("views/header.php");
-     require("views/home.php");
-     require("views/footer.php");
+     require("Views/header.php");
+     require("Views/home.php");
+     require("Views/footer.php");
 }
     public function login()
     {

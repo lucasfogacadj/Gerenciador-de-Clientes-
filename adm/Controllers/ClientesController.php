@@ -9,8 +9,8 @@
 
 
 
-require_once ('models/Entidades/Cliente.php');
-require_once ('models/DAO/ClienteDAO.php');
+require_once ('Models/Entidades/Cliente.php');
+require_once ('Models/DAO/ClienteDAO.php');
 
 
 
@@ -21,23 +21,23 @@ class ClientesController{
     {
         $clienteDAO = new ClienteDAO();
         $resultado = $clienteDAO->listar();
-        include "views/header.php";
-        include "views/clientes/listaCliente2.php";
-        include "views/footer.php";
+        include "Views/header.php";
+        include "Views/clientes/listacliente2.php";
+        include "Views/footer.php";
     }
 
     public function getformulario()
     {
-        include "views/header.php";
-        include "views/clientes/formulario.php";
-        include "views/footer.php";
+        include "Views/header.php";
+        include "Views/clientes/formulario.php";
+        include "Views/footer.php";
     }
 
     public function getCadastro()
     {
-        include "views/header.php";
-        include "views/clientes/CadastroCliente2.php";
-        include "views/footer.php";
+        include "Views/header.php";
+        include "Views/clientes/CadastroCliente2.php";
+        include "Views/footer.php";
     }
 
     public function mostrarFormulario(){
@@ -61,10 +61,10 @@ class ClientesController{
                             'opc'=>$opc
             );
 
-        include "view/header.php";
+        include "View/header.php";
         //print_r($formulario);
-        include "view/clientes/mostrarFormulario.php";
-        include "view/footer.php";
+        include "View/clientes/mostrarFormulario.php";
+        include "View/footer.php";
     }
     public function salvar()
     {
@@ -80,9 +80,9 @@ class ClientesController{
         $ClienteDAO = new ClienteDAO();
         $ClienteDAO->salvar($cliente);
 
-        include "views/header.php";
-        include "views/sucesso.php";
-        include "views/footer.php";
+        include "Views/header.php";
+        include "Views/sucesso.php";
+        include "Views/footer.php";
 
     }
 
@@ -93,9 +93,9 @@ class ClientesController{
         $ClienteDAO = new ClienteDAO();
 
         $cliente = $ClienteDAO->listar($idCliente);
-        include "views/header.php";
-        include "views/clientes/EditarCliente.php";
-        include "views/footer.php";
+        include "Views/header.php";
+        include "Views/clientes/EditarCliente.php";
+        include "Views/footer.php";
 
     }
 
@@ -111,9 +111,9 @@ class ClientesController{
         //var_dump($cliente);
         $ClienteDAO = new ClienteDAO();
         $ClienteDAO->atualizar($cliente);
-        include "views/header.php";
-        include "views/sucesso.php";
-        include "views/footer.php";
+        include "Views/header.php";
+        include "Views/sucesso.php";
+        include "Views/footer.php";
 
     }
 
@@ -127,9 +127,9 @@ class ClientesController{
 
         $clienteDao->excluir($Cliente);
 
-        include "views/header.php";
-        include "views/sucesso.php";
-        include "views/footer.php";
+        include "Views/header.php";
+        include "Views/sucesso.php";
+        include "Views/footer.php";
 
 
     }

@@ -11,7 +11,7 @@
 
             <hr>
             <figure>
-            <img src="assets/img/ok.png" alt="Deu certo!" width="360" height="370"/>
+            <img src="public/img/ok.png" alt="Deu certo!" width="360" height="370"/>
             </figure>
         </div>
     </div>

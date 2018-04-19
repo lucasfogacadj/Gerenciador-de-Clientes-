@@ -10,9 +10,9 @@
 
 
 
-require_once("models/Entidades/Cliente.php");
+require_once("Models/Entidades/Cliente.php");
 require_once("Models/DAO/BaseDAO.php");
-require_once("models/DAO/ClienteDAO.php");
+require_once("Models/DAO/ClienteDAO.php");
 
 
 
