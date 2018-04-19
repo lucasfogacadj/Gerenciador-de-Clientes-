@@ -6,15 +6,13 @@
  * Time: 13:20
  */
 
-namespace App\model\dao;
 
 
-use App\model\Entidades\Cliente;
 
 
-require_once ('model/Entidades/Cliente.php');
-require_once ('model/DAO/BaseDAO.php');
-require_once ('model/DAO/ClienteDAO.php');
+require_once("models/Entidades/Cliente.php");
+require_once("Models/DAO/BaseDAO.php");
+require_once("models/DAO/ClienteDAO.php");
 
 
 

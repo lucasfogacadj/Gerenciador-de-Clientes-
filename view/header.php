@@ -14,20 +14,17 @@
 
 <div class="flex-container">
 <header>
-  <h1>Crudzera no PHP</h1>
+  <h1>Sistema Gerenciador de Clientes</h1>
 </header>
 
 <nav class="nav">
 <ul>
-    <li> <h3>Clientes</h3> <br> </li>
-    <li><a href="?c=c&a=cc"> Cadastro de Usuario No Array</a></li>
-    <li><a href="?c=c&a=ccb"> Cadastro de Usuario no Banco</a></li>
-    <li><a href="?c=c&a=lu"> Listar de Usuario no Banco</a></li>
+    <li><h3><a href="http://localhost/App/adm/"> Login</a></h3></li>
     <p>
-    <li> <h3>Páginas</h3> <br> </li>
-  <li><a href="?c=s&a=s">London</a></li>
-  <li><a href="?c=s&a=p">Paris</a></li>
-  <li><a href="?c=s&a=c">Tokyo</a></li>
+    <li> <h4>Sobre</h4> <br> </li>
+  <li><a href="?c=s&a=s">Tecnologias Usadas</a></li>
+  <li><a href="?c=s&a=p">Funcionalidades</a></li>
+  <li><a href="?c=s&a=c">Sobre o Desenvolvedor</a></li>
     <p>
 
 </ul>

@@ -1,6 +1,8 @@
-<h1>Tokio</h1>
-<p>Tokyo is often referred to as a city, but is officially known and governed as a "metropolitan prefecture",
-    which differs from and combines elements of a city and a prefecture, a characteristic unique to Tokyo. </p>
-<p>TTokyo ranked first in the Global Economic Power Index and third in the Global Cities Index. The city is considered an alpha+ world city – as
-    listed by the GaWC's 2008 inventory[11] – and in 2014, Tokyo was ranked first in the "Best overall experience" category of TripAdvisor's World City Survey (the city also ranked first in the following categories: "helpfulness of locals", "nightlife", "shopping", "local public transportation" and "cleanliness of streets").</p>
-<p><strong>Resize this page to see what happens!</strong></p>
+<h1>Sobre o Desenvolvedor</h1>
+<img  src="assets/img/dev.png" />
+<br>
+<p>
+<p>Mais informações sobre o desenvolvedor e outros projetos pode ser encontrado em: <a href="http://www.lucasfogaca.com.br/">www.lucasfogaca.com.br</a> </p>
+<p>Código disponivél em <a href="https://github.com/lucasfogacadj/CRUD-PHP-MVC">https://github.com/lucasfogacadj/CRUD-PHP-MVC</a></p>
+<p>LinkedIn <a href="https://www.linkedin.com/in/lucasrfogaca/">https://www.linkedin.com/in/lucasrfogaca/</a></p>
+<p><strong>Redimensione e veja o que acontece</strong></p>

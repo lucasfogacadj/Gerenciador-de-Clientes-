@@ -6,7 +6,6 @@
  * Time: 08:14
  */
 
-namespace App\model\Entidades;
 
 class Cliente
 {

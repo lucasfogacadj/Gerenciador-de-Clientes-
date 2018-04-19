@@ -1,8 +1,10 @@
 
-  <h1>London</h1>
-  <p>London is the capital city of England. It is the most populous city in the United Kingdom,
-  with a metropolitan area of over 13 million inhabitants.</p>
-  <p>Standing on the River Thames, London has been a major settlement for two millennia,
-  its history going back to its founding by the Romans, who named it Londinium.</p>
-  <p><strong>Resize this page to see what happens!</strong></p>
+  <h1>Tecnologias Usadas</h1>
+  <p>Criado usando a linguagem PHP, estrutura Model View Controle, e PDO para conexão de banco de dados.</p>
+  <img class="alignnone size-medium wp-image-101" src="assets/img/tec.png" alt="" width="300" height="180" />
+<br>
+  <p>Este sistema não utiliza nenhum framework PHP.
+o Front-end, foi usado html, css, jquery e bootstrap.</p>
+
+  <p><strong>Redimensione e veja o que acontece!</strong></p>
 </article>

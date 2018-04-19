@@ -7,15 +7,10 @@
  */
 
 
-namespace App\controller;
 
 
-
-use App\model\dao\ClienteDAO;
-use App\model\Entidades\Cliente;
-
-require_once ('model/Entidades/Cliente.php');
-require_once ('model/DAO/ClienteDAO.php');
+require_once ('models/Entidades/Cliente.php');
+require_once ('models/DAO/ClienteDAO.php');
 
 
 
@@ -25,25 +20,24 @@ class ClientesController{
     public function listaCliente()
     {
         $clienteDAO = new ClienteDAO();
-        //self::setViewParam('listaClientes', $clienteDAO->listar());
         $resultado = $clienteDAO->listar();
-        include "view/header.php";
-        include "view/clientes/listaCliente2.php";
-        include "view/footer.php";
+        include "views/header.php";
+        include "views/clientes/listaCliente2.php";
+        include "views/footer.php";
     }
 
     public function getformulario()
     {
-        include "view/header.php";
-        include "view/clientes/formulario.php";
-        include "view/footer.php";
+        include "views/header.php";
+        include "views/clientes/formulario.php";
+        include "views/footer.php";
     }
 
     public function getCadastro()
     {
-        include "view/header.php";
-        include "view/clientes/CadastroCliente2.php";
-        include "view/footer.php";
+        include "views/header.php";
+        include "views/clientes/CadastroCliente2.php";
+        include "views/footer.php";
     }
 
     public function mostrarFormulario(){
@@ -86,9 +80,9 @@ class ClientesController{
         $ClienteDAO = new ClienteDAO();
         $ClienteDAO->salvar($cliente);
 
-        include "view/header.php";
-        include "view/sucesso.php";
-        include "view/footer.php";
+        include "views/header.php";
+        include "views/sucesso.php";
+        include "views/footer.php";
 
     }
 
@@ -99,9 +93,9 @@ class ClientesController{
         $ClienteDAO = new ClienteDAO();
 
         $cliente = $ClienteDAO->listar($idCliente);
-        include "view/header.php";
-        include "view/clientes/EditarCliente.php";
-        include "view/footer.php";
+        include "views/header.php";
+        include "views/clientes/EditarCliente.php";
+        include "views/footer.php";
 
     }
 
@@ -117,6 +111,9 @@ class ClientesController{
         //var_dump($cliente);
         $ClienteDAO = new ClienteDAO();
         $ClienteDAO->atualizar($cliente);
+        include "views/header.php";
+        include "views/sucesso.php";
+        include "views/footer.php";
 
     }
 
@@ -130,9 +127,9 @@ class ClientesController{
 
         $clienteDao->excluir($Cliente);
 
-        include "view/header.php";
-        include "view/sucesso.php";
-        include "view/footer.php";
+        include "views/header.php";
+        include "views/sucesso.php";
+        include "views/footer.php";
 
 
     }
