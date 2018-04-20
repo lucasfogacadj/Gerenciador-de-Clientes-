@@ -17,6 +17,13 @@ require_once ('Models/DAO/ClienteDAO.php');
 
 class ClientesController{
 
+    function __construct()
+    {
+        if(!isset($_SESSION["user"])){
+            header("Location: index.php?c=m&a=l");
+            }
+    }
+
     public function listaCliente()
     {
         $clienteDAO = new ClienteDAO();
