@@ -4,7 +4,7 @@
 Criado com a linguagem PHP, usando o padrão estrutural Model View Controller,
 e a classe PDO para conexão de banco de dados.
 
-![alt text](https://lucasfogacadev.000webhostapp.com/wp-content/uploads/2018/04/Captura-de-Tela-2018-04-19-a%CC%80s-12.55.05.png)
+![alt text](https://i.imgur.com/Jx96xBq.png)
 
 Para o desenvolvimento não foi utulizado nenhum framework PHP, no Front-end, foi usado html, css, jquery e bootstrap.
 
